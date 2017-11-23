@@ -10,12 +10,9 @@ namespace squio\leaflet\plugins\boatmarker;
 use yii\web\AssetBundle;
 
 /**
- * MakiMarkerAsset
+ * BoatMarkerAsset
  *
- * @author Antonio Ramirez <amigo.cobos@gmail.com>
- * @link http://www.ramirezcobos.com/
- * @link http://www.2amigos.us/
- * @package dosamigos\leaflet\plugins\markercluster
+ * @package squio\leaflet\plugins\boatmarker
  */
 class BoatMarkerAsset extends AssetBundle
 {

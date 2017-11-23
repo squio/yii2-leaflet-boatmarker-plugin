@@ -87,7 +87,7 @@ class BoatMarker extends  Layer
      */
     public function registerAssetBundle($view)
     {
-        MakiMarkerAsset::register($view);
+        BoatMarkerAsset::register($view);
         return $this;
     }
 
