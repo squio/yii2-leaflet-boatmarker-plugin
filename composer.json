@@ -1,0 +1,49 @@
+{
+    "name": "squio/yii2-leaflet-boatmarker-plugin",
+    "description": "Yii2 Leaflet plugin to create map icons using BoatMarker.",
+    "keywords": [
+        "squio",
+        "yii",
+        "yii2",
+        "yii 2",
+        "extension",
+        "widget",
+        "maps",
+        "leaflet",
+        "plugin"
+    ],
+    "homepage": "http://squio.nl/extension/leaflet-boatmarker-plugin",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "SQUIO",
+            "email": "info@squio.nl",
+            "homepage": "http://squio.nl",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/squio/yii2-leaflet-boatmarker-plugin/issues",
+        "source": "https://github.com/squio/yii2-leaflet-boatmarker-plugin"
+    },
+    "require": {
+        "2amigos/yii2-leaflet-extension": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "squio\\leaflet\\plugins\\boatmarker\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "asset-installer-paths": {
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
